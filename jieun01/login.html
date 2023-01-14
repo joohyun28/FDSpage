@@ -1,33 +1,99 @@
-<!--login popup practice code-->
-<!--herf로 로그인 버튼 만들고 -->
-<!--그 아래 div, class 값 줘서 로그인 창 열기-->
-<!--그 안에 a herf로 닫기 등 버튼 만들기-->
-
+<!--class 값 수정 필요?-->
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>login</title>
-    <style>
-        body { padding: 40px; background: #f5f7f6;}
-        .btn{display: block; width: 200px; height: 50px; background: #4ac4f3; text-decoration: none;
-        text-align: center; line-height: 50px; color: #fff; border-radius:50px ;}
-        .popup { position:absolute; left: 50%; top: 50%; z-index: 5; transform:translate(-50%, -50%);width: 500px; height: 500px; 
-            box-shadow: 0 0 10px rgba(0,0,0,0.5); background: #fff; border-radius: 5px; text-align: right; 
-            padding: 20px; box-sizing: border-box; opacity: 0; transition: all 0.5s; }
-        .popup a {color: gray; text-decoration: none;}
-        .popup :target {opacity: 1;}
-        .popup :target + .dim{opacity: 1; z-index: 2;}
-        .dim{position: absolute; left: 0; top: 0; z-index: -1 ;width: 100%; height: 100%; background: rgba(0,0,0,0.6); 
-        opacity: 0; transition: all 0.5s;}
-    </style>
+
+    <title>loginPage</title>
 </head>
 
 <body>
-    <a href="#pop1" class="btn">팝업열기</a> <!--팝업을 열 버튼-->
-    <div class="popup" id="pop1"><!--팝업 열 대상-->
-        <a herf="#a">닫기</a>
+    <div class="modal-header">
+        <h2>로그인</h2>
     </div>
-    <div class="dim"></div>
+    <button class="close" data-dismiss="modal" aria-label="Close" data-toggle="tooltip" data-placement="bottom"
+        data-original-title="닫기"><i class="btl bt-times"></i></button>
+    <!--닫기 x버튼에 마우스 갖다대면 '닫기' 말풍선(tooltip) -->
+    <!--지금페이지에선못찾겠어-->
+
+    <!--로그인 부분 action-->
+    <!--서버에 값 저장 post-->
+    <form action="/backpg/login.cm" method="post" target="hidden_frame">
+        <input type="hidden" name="back_url" value="Lw%3D%3D">
+        <input type="hidden" name="back_url_auth" value="">
+        <input type="hidden" name="used_login_btn" value="Y">
+
+        <!--로그인 입력창-->
+        <div class="input_block">
+            <div class="input_form">
+                <!--이메일입력-->
+                <input title="이메일" type="text" name="uid" value="" placeholder="이메일"><i aria-hidden="true"
+                    class="zmdi zmdi-check"></i>
+            </div>
+            <div class="input_form brt">
+                <!--비밀번호입력-->
+                <input title="비밀번호" name="passwd" type="password" value="" placeholder="비밀번호" autocomplete="off"><i
+                    aria-hidden="true" class="zmdi zmdi-check"></i>
+            </div>
+        </div>
+        <!--input_form에 active클래스명이 붙으면 (인풋에 글자가 입력된 상태) 체크표시 활성화 -->
+
+        <div class="cheak_article">
+            <!--로그인상태유지체크-->
+            <div class="checkbox checkbox-styled">
+                <label class="form-label">
+                    <input type="checkbox" class="ie" name="auto_login" data-type="use" value="ok" checked="checked">
+                    <span class="agree_tit">로그인상태유지</span>
+                </label>
+            </div>
+        </div>
+
+        <!--로그인하기 버튼-->
+        <p>
+            <button class="btn btn-primary btn-block" style="font-size: 14px;">로그인</button>
+        </p>
+    </form>
+
+    <div class="over_h">
+        <!--회원가입 페이지로 이동-->
+        <a href="javascript:;" onclick="SITE_MEMBER.openJoinPatternChoice('Lw%3D%3D', '');" class="float_l">회원가입</a>
+        <!--아이디/비번 찾기 페이지로 이동(보여주기 식으로만)-->
+        <a href="javascript:;" onclick="SITE_MEMBER.openFindPassword('L2RpYWxvZy9sb2dpbi5jbQ%3D%3D');"
+            class="float_r">아이디 · 비밀번호 찾기</a>
+    </div>
+
+
+    <div class="divider txt_c">
+        <div class="border"></div>
+        또는
+        <div class="border right"></div>
+    </div>
+
+    <!--비회원 주문배송 조회 버튼-->
+    <p class="txt_c mb20">
+        <a class="btn !tw-block non_btn" href="javascript:;"
+            onclick="SITE_MEMBER.openGuestLogin('L2RpYWxvZy9sb2dpbi5jbQ%3D%3D');">비회원 주문배송 조회</a>
+    </p>
+
+    <!--??-->
+    <script type="text/javascript">
+        if (typeof window.sessionStorage !== "undefined") {
+            if (typeof SITE_SHOP_DETAIL != "undefined") {
+                if (SITE_SHOP_DETAIL.getCurrentProdNo()) {
+                    SITE_SHOP_DETAIL.saveSelectedProd();
+                } else {
+                    sessionStorage.clear();
+                }
+            } else {
+                sessionStorage.clear();
+            }
+
+            //IMWEB_SESSIONSTORAGE.clear('PROD_REVIEW_.*');
+            //IMWEB_SESSIONSTORAGE.clear('PROD_QNA_.*');
+        }
+    </script>
+    </article>
 </body>
+
 </html>
