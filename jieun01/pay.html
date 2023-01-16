@@ -1,54 +1,133 @@
 <!DOCTYPE html>
 <html lang="ko">
-    <head>
-        <meta charset="UTF-8">
-        <title>결제 페이지</title>
-    </head>
-    <body>
-        <div class="list">
-            <br>
-            <h3>주문 상품 정보</h3>
-        </div>
 
-        <div class="order_person">
-            <br>
-            <h3>주문자 정보</h3>
-            <p>이름 <input title="이름" type="text" name="name" id="name" autocapitalize="off" required></p>
-            <p>연락처 <input title="연락처" type="tel" name="phone" id="phone" autocapitalize="off" required></p>
-            <p>이메일 <input title="이메일" type="text" name="email" id="email" autocapitalize="off" required></p>
-            <p>주소 <input title="주소" type="text" name="addr" id="addr" autocapitalize="off" required></p>
-        </div>
+<head>
+    <meta charset="UTF-8">
+    <title>결제 페이지</title>
+</head>
 
-        <div class="order_person">
-            <br>
+<body>
+    <div class="information">
+        <br>
+        <h3>주문 상품 정보</h3>
+        <box>
 
-            <h3>배송 정보</h3>
-            <div class="check_same">
-                <p><input type="checkbox" checked> 주문자 정보와 동일
-                </p>
-            </div>
-            <p>이름 <input title="이름" type="text" name="name" id="name" autocapitalize="off" required></p>
-            <p>연락처 <input title="연락처" type="tel" name="phone" id="phone" autocapitalize="off" required></p>
-            <p>이메일 <input title="이메일" type="text" name="email" id="email" autocapitalize="off" required></p>
-            <p>주소 <input title="주소" type="text" name="addr" id="addr" autocapitalize="off" required></p>
-        </div>
-        <div class="memo">
-            <br>
-            <p>배송 메모</p>
-            <select>
-                <option value="0">배송메모를 선택해 주세요.</option>
-                <option value="1">배송 전에 미리 연락 바랍니다.</option>
-                <option value="2">부재시 경비실에 맡겨주세요.</option>
-                <option value="3">부재시 전화나 문자를 남겨주세요.</option>
-                <option value="4">직접 입력.</option>
+        </box>
+    </div>
+
+    <div class="order_person">
+        <br>
+        <h3>주문자 정보</h3>
+        <p>이름 <input title="이름" type="text" name="name" id="name" autocapitalize="off" required></p>
+        <p>연락처 <input title="연락처" type="tel" name="phone" id="phone" autocapitalize="off" required></p>
+        <p>이메일 <input title="이메일" type="text" name="email" id="email" autocapitalize="off" required>
+            @ <select>
+                <option>------ 선택 ------</option>
+                <option>gmail.com</option>
+                <option>naver.com</option>
+                <option>직접 입력</option>
             </select>
+        </p>
+        <p>주소 <input title="주소" type="text" name="addr" id="addr" autocapitalize="off" required></p>
+    </div>
+    <br>
+
+    <div class="order_person_new">
+        <br>
+        <h3>배송 정보</h3>
+        <div class="check_same">
+            <input type="checkbox" id="newInfo" name="newInfo">
+            <label for="newInfo">주문자 정보와 동일</label>
         </div>
+        <p>이름 <input title="이름" type="text" name="new_name" id="new_name" autocapitalize="off" required></p>
+        <p>연락처 <input title="연락처" type="tel" name="new_phone" id="new_phone" autocapitalize="off" required></p>
+        <p>이메일 <input title="이메일" type="text" name="new_email" id="new_email" autocapitalize="off" required>
+            @ <select>
+                <option>------ 선택 ------</option>
+                <option>gmail.com</option>
+                <option>naver.com</option>
+                <option>직접 입력</option>
+            </select>
+        </p>
+        <p>주소 <input title="주소" type="text" name="new_addr" id="new_addr" autocapitalize="off" required></p>
+        <br>
+        <p>배송 메모</p>
+        <select>
+            <option value="0">배송메모를 선택해 주세요.</option>
+            <option value="1">배송 전에 미리 연락 바랍니다.</option>
+            <option value="2">부재시 경비실에 맡겨주세요.</option>
+            <option value="3">부재시 전화나 문자를 남겨주세요.</option>
+            <option value="4">직접 입력.</option>
+        </select>
+    </div>
+    <br>
+    <div class="total">
+        <h3>주문 요약</h3>
+        <p>상품가격&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            <script></script>원
+        </p>
+        <p>배송비&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp+2,500원
+        </p>
+        <p>-----------------------------------------------------------------------</p>
+        <p>총 주문금액
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            <script></script>원
+        </p>
+    </div>
 
-        
 
-    </body>
-    <style>
 
-    </style>
+
+</body>
+<style>
+    * {
+        text-align: left;
+        padding: 10px;
+        margin: 0px auto;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: #F7F5F3;
+    }
+
+    .order_person {
+        position: relative;
+        width: 500px;
+        height: 300px;
+        line-height: 5px;
+        background-color: #fff;
+    }
+
+    .order_person_new {
+        position: relative;
+        width: 500px;
+        height: 450px;
+        line-height: 5px;
+        background-color: #fff;
+    }
+</style>
+<!--주문자 정보 동일화 코드-->
+<script>
+    //1. 주문정보 동일 체크박스 요소 담은 변수 생성
+    let check = document.querySelector("#newInfo");
+    //2. 해당 변수 클릭 시 function 발생
+    check.addEventListener("click", function () {
+        //체크 시 각 요소 값 매칭
+        if (check.checked == true) {
+            document.querySelector("#new_name").value = document.querySelector("#name").value;
+            document.querySelector("#new_phone").value = document.querySelector("#phone").value;
+            document.querySelector("#new_email").value = document.querySelector("#email").value;
+            document.querySelector("#new_addr").value = document.querySelector("#addr").value;
+        } else {
+            //체크되지 않았다면 각 요소값을 비워둠
+            document.querySelector("new_name").value = "";
+            document.querySelector("new_phone").value = "";
+            document.querySelector("new_email").value = "";
+            document.querySelector("new_addr").value = "";
+        }
+    });
+
+</script>
+
 </html>
-
