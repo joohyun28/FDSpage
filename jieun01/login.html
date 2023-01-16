@@ -76,23 +76,6 @@
             onclick="SITE_MEMBER.openGuestLogin('L2RpYWxvZy9sb2dpbi5jbQ%3D%3D');">비회원 주문배송 조회</a>
     </p>
 
-    <!--??-->
-    <script type="text/javascript">
-        if (typeof window.sessionStorage !== "undefined") {
-            if (typeof SITE_SHOP_DETAIL != "undefined") {
-                if (SITE_SHOP_DETAIL.getCurrentProdNo()) {
-                    SITE_SHOP_DETAIL.saveSelectedProd();
-                } else {
-                    sessionStorage.clear();
-                }
-            } else {
-                sessionStorage.clear();
-            }
-
-            //IMWEB_SESSIONSTORAGE.clear('PROD_REVIEW_.*');
-            //IMWEB_SESSIONSTORAGE.clear('PROD_QNA_.*');
-        }
-    </script>
     </article>
 </body>
 
