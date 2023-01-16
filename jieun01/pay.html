@@ -17,41 +17,44 @@
 
     <div class="order_person">
         <br>
-        <h3>주문자 정보</h3>
-        <p>이름 <input title="이름" type="text" name="name" id="name" autocapitalize="off" required></p>
-        <p>연락처 <input title="연락처" type="tel" name="phone" id="phone" autocapitalize="off" required></p>
-        <p>이메일 <input title="이메일" type="text" name="email" id="email" autocapitalize="off" required>
+        <h3>주문자 정보</h3><br>
+        <input title="이름" placeholder="이름"type="text" name="name" id="name" autocapitalize="off" required>
+        &nbsp&nbsp&nbsp 
+        <input title="연락처" placeholder="연락처" type="text" name="phone" id="phone" autocapitalize="off" required>
+        <input title="이메일" placeholder="이메일" type="text" name="email" id="email" autocapitalize="off" required>
             @ <select>
                 <option>------ 선택 ------</option>
                 <option>gmail.com</option>
                 <option>naver.com</option>
                 <option>직접 입력</option>
             </select>
-        </p>
-        <p>주소 <input title="주소" type="text" name="addr" id="addr" autocapitalize="off" required></p>
+        <input title="주소" placeholder="주소" type="text" name="addr" id="addr" autocapitalize="off" required>
     </div>
     <br>
 
     <div class="order_person_new">
         <br>
-        <h3>배송 정보</h3>
+        <h3>배송 정보</h3><br>
+        <br>
         <div class="check_same">
             <input type="checkbox" id="newInfo" name="newInfo">
             <label for="newInfo">주문자 정보와 동일</label>
+            <br>
         </div>
-        <p>이름 <input title="이름" type="text" name="new_name" id="new_name" autocapitalize="off" required></p>
-        <p>연락처 <input title="연락처" type="tel" name="new_phone" id="new_phone" autocapitalize="off" required></p>
-        <p>이메일 <input title="이메일" type="text" name="new_email" id="new_email" autocapitalize="off" required>
+        <input title="이름" placeholder="이름" type="text" name="new_name" id="new_name" autocapitalize="off" required>
+            &nbsp&nbsp&nbsp
+            <input title="연락처" placeholder="연락처" type="text" name="new_phone" id="new_phone" autocapitalize="off"
+                required>
+        <input title="이메일" placeholder="이메일" type="text" name="new_email" id="new_email" autocapitalize="off" required>
             @ <select>
                 <option>------ 선택 ------</option>
                 <option>gmail.com</option>
                 <option>naver.com</option>
                 <option>직접 입력</option>
             </select>
-        </p>
-        <p>주소 <input title="주소" type="text" name="new_addr" id="new_addr" autocapitalize="off" required></p>
+        <input title="주소" placeholder="주소" type="text" name="new_addr" id="new_addr" autocapitalize="off" required></p>
         <br>
-        <p>배송 메모</p>
+        <p>배송 메모</p><br>
         <select>
             <option value="0">배송메모를 선택해 주세요.</option>
             <option value="1">배송 전에 미리 연락 바랍니다.</option>
@@ -63,16 +66,75 @@
     <br>
     <div class="total">
         <h3>주문 요약</h3>
+        <br><br><br><br><br><br>
         <p>상품가격&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
             <script></script>원
         </p>
+        <br><br><br><br><br>
         <p>배송비&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp+2,500원
-        </p>
-        <p>-----------------------------------------------------------------------</p>
+        </p><br><br><br><br><br>
+        <p>-------------------------------------------------------------------------------------</p>
+        <br><br><br><br><br>
         <p>총 주문금액
-            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
             <script></script>원
         </p>
+    </div>
+
+    <br>
+    <div class="pay">
+        <h3>결제 수단</h3><br>
+        <br>
+            <table>
+                <tr>
+                    <td>결제수단 선택</td> 
+                    <td>
+                        <div class="select_way">
+                            <input type="radio" name="selecy_way" id="card" checked>
+                            <label for="card">카드간편결제</label>
+                            <input type="radio" name="selecy_way" id="no_card">
+                            <label for="no_card">무통장입금</label>
+                        </div>
+                        </td>
+                </tr>
+                <tr>
+                    <td>
+                        결제하기
+                    </td>
+                        카드번호
+                        <div class="card_num">
+                        <input title="카드번호" type="text" name="card_num" id="card_num" autocapitalize="off" required>
+                         - <input title="카드번호" type="text" name="card_num" id="card_num" autocapitalize="off" required>
+                         - <input title="카드번호" type="text" name="card_num" id="card_num" autocapitalize="off" required>
+                         - <input title="카드번호" type="text" name="card_num" id="card_num" autocapitalize="off" required>
+                        </div>
+                    <tr>
+                        <td>
+                        </td>
+                        <td>비밀번호</td>
+                    </tr>
+                    <tr>
+                        <td>
+                        </td>
+                        <td>카드구분</td>
+                    </tr>
+                    <tr>
+                        <td>
+                        </td>
+                        <td>생년월일</td>
+                    </tr>
+                    <tr>
+                        <td>
+                        </td>
+                        <td>할부선택</td>
+                    </tr>
+                    <tr>
+                        <td>
+                        </td>
+                        <td>이메일</td>
+                    </tr>
+                </tr>
+            </table>
     </div>
 
 
@@ -82,7 +144,7 @@
 <style>
     * {
         text-align: left;
-        padding: 10px;
+        padding: 0px;
         margin: 0px auto;
         box-sizing: border-box;
     }
@@ -92,19 +154,55 @@
     }
 
     .order_person {
+        padding: 20px 20px 10px;
         position: relative;
-        width: 500px;
+        width: 600px;
         height: 300px;
         line-height: 5px;
         background-color: #fff;
     }
 
     .order_person_new {
+        padding: 20px 20px 20px;
         position: relative;
-        width: 500px;
-        height: 450px;
+        width: 600px;
+        height: 400px;
         line-height: 5px;
         background-color: #fff;
+        
+    }
+
+    .total {
+        padding: 30px 20px 20px;
+        vertical-align: top;
+        width: 600px;
+        height: 200px;
+        line-height: 5px;
+        background-color: #fff;
+    }
+
+    .pay {
+        padding: 20px 10px 20px;
+        vertical-align: top;
+        width: 600px;
+        height: 700px;
+        line-height: 5px;
+        background-color: #fff;
+    }
+
+    input{
+        width: 50%;
+        border: 2px solid #aaa;
+        border-radius: 4px;
+        margin: 8px 0 0;
+        outline: none;
+        padding: 8px;
+        box-sizing: border-box;
+        transition: 3s;
+    }
+    .card_num{
+        width: 30%;
+
     }
 </style>
 <!--주문자 정보 동일화 코드-->
