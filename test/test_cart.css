@@ -1,4 +1,36 @@
 
+header {
+    height: 32px;
+    display: flex;
+    justify-content: right;
+    padding-right: 50px;
+    background-color: black;
+}
+
+a:link {
+    color : white;
+}
+
+a:visited {
+    color : white;
+}
+
+footer {
+    height: 100px;
+    background-color: gray;
+}
+
+#banner {
+    height: 50px;
+    background-color: white;
+}
+
+#header {
+    width: 1024 px;
+    height: 100%
+}
+
+
 .basketdiv {
     width: 100%;
     border-top: 1px solid #e0e0e0;
