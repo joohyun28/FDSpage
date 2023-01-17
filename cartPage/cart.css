@@ -186,11 +186,11 @@ body {
   }
 
   .cart__bigorderbtn.left {
-    background-color: white;
+    background-color: black;
     border: 1px lightgray solid;
   }
 
   .cart__bigorderbtn.right {
-    background-color: white;
+    background-color: black;
     border: 1px lightgray solid;
   }
