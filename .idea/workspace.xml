@@ -14,12 +14,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be076372-2b1e-473d-b46a-1ba88743e4e7" name="Changes" comment="1">
-      <change afterPath="$PROJECT_DIR$/joohyun/ProductPage" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joohyun/SignUp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joohyun/joinForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joohyun/ProductPage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductPage" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignUp" beforeDir="false" afterPath="$PROJECT_DIR$/joohyun/joinForm.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/joohyun/ProductPage" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/joohyun/SignUp" beforeDir="false" afterPath="$PROJECT_DIR$/joohyun/SignUp.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +56,14 @@
       <option name="presentableId" value="Default" />
       <updated>1673702995470</updated>
     </task>
+    <task id="LOCAL-00001" summary="1">
+      <created>1673932673601</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673932673601</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -72,6 +78,10 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="223" y="63" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1673929382873">
       <screen x="0" y="0" width="1536" height="816" />
@@ -81,9 +91,17 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="890" y="153" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.816@0.0.1536.816" timestamp="1673929626495" />
-    <state x="0" y="0" width="890" height="822" key="dock-window-1" timestamp="1673929015134">
+    <state x="717" y="85" key="Vcs.Push.Dialog.v2" timestamp="1673932694114">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="0" y="0" width="890" height="822" key="dock-window-1/0.0.1536.816@0.0.1536.816" timestamp="1673929015134" />
+    <state x="717" y="85" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1673932694114" />
+    <state x="0" y="60" width="890" height="450" key="dock-window-1" timestamp="1673933263117">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="0" y="60" width="890" height="450" key="dock-window-1/0.0.1536.816@0.0.1536.816" timestamp="1673933263117" />
+    <state x="843" y="139" key="git4idea.merge.GitPullDialog" timestamp="1673932685640">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="843" y="139" key="git4idea.merge.GitPullDialog/0.0.1536.816@0.0.1536.816" timestamp="1673932685640" />
   </component>
 </project>
