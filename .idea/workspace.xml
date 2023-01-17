@@ -3,8 +3,24 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="be076372-2b1e-473d-b46a-1ba88743e4e7" name="Changes" comment="1" />
+    <list default="true" id="be076372-2b1e-473d-b46a-1ba88743e4e7" name="Changes" comment="1">
+      <change afterPath="$PROJECT_DIR$/joohyun/ProductPage" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joohyun/SignUp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joohyun/joinForm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductPage" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignUp" beforeDir="false" afterPath="$PROJECT_DIR$/joohyun/joinForm.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,18 +40,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
-  }
-}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ysm14\PycharmProjects\FDSpage\joohyun" />
       <recent name="C:\github\FDSpage\jieun01" />
     </key>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="be076372-2b1e-473d-b46a-1ba88743e4e7" name="Changes" comment="1" />
@@ -56,5 +70,20 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="63" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1673929382873">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="223" y="63" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.816@0.0.1536.816" timestamp="1673929382873" />
+    <state x="890" y="153" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1673929626495">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="890" y="153" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.816@0.0.1536.816" timestamp="1673929626495" />
+    <state x="0" y="0" width="890" height="822" key="dock-window-1" timestamp="1673929015134">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="0" y="0" width="890" height="822" key="dock-window-1/0.0.1536.816@0.0.1536.816" timestamp="1673929015134" />
   </component>
 </project>

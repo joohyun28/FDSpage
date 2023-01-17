@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>SignUp</title>
+</head>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>SignUp</title>
+</head>
+
+<body>
+    <div class="modal-header">
+        <h2>회원가입</h2>
+    </div>
+    <button class="close" data-dismiss="modal" aria-label="Close" data-toggle="tooltip" data-placement="bottom"
+        data-original-title="닫기"><i class="btl bt-times"></i></button>
+
+    <form action="/backpg/login.cm" method="post" target="hidden_frame">
+        <input type="hidden" name="back_url" value="Lw%3D%3D">
+        <input type="hidden" name="back_url_auth" value="">
+        <input type="hidden" name="used_login_btn" value="Y">
+
+        <!--회원가입 입력창-->
+        <div class="input_block">
+            <div class="input_form">
+                <!--이메일입력-->
+                <input title="이메일" type="text" name="uid" value="" placeholder="이메일"><i aria-hidden="true"
+                    class="zmdi zmdi-check"></i>
+            </div>
+            <div class="input_form brt">
+                <!--비밀번호입력-->
+                <input title="비밀번호" name="passwd" type="password" value="" placeholder="비밀번호" autocomplete="off"><i
+                    aria-hidden="true" class="zmdi zmdi-check"></i>
+            </div>
+            </div>
+            <div class="input_form brt">
+                <!--비밀번호 확인입력-->
+                <input title="비밀번호 확인" name="passwdconfirm" type="password" value="" placeholder="비밀번호 확인" autocomplete="off"><i
+                    aria-hidden="true" class="zmdi zmdi-check"></i>
+            </div>
+        </div>
+
+        <textarea>이름</textarea>
+        <div>
+            <input title="이름" name="name" type="text" value="" placeholder="이름을(를) 입력하세요" autocomplete="off"><i
+                    aria-hidden="true" class="zmdi zmdi-check"></i>
+        </div>
+
+        <!--가입하기 버튼-->
+        <p>
+            <button class="btn btn-primary btn-block" style="font-size: 14px;">가입하기</button>
+        </p>
+    </form>
+
+    </article>
+</body>
+
+</html>
