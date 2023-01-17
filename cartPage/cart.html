@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <title>FDSpage_cart</title>
+        <link rel="stylesheet" href="cart.css" type="text/css">
+    </head>
+
+    <body>
+        <header>
+            <div id="header">
+                <nav>
+                    <a href="login_1.html">login</a>
+                    <a href="join.html">join</a>
+                    <a href="cart.html">cart</a>
+                </nav>
+            </div>
+        </header>
+        
+        <section class="cart">
+            <div class="cart__information">
+                <ul>
+                    장바구니
+                </ul>
+            </div>
+            <table class="cart__list">
+                <form>
+                    <thead>
+                        <tr>
+                            <td><input type="checkbox"></td>
+                            <td colspan="2">상품정보</td>
+                            <td>수량</td>
+                            <td>주문금액</td>
+                            <td>배송비</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="cart__list__detail">
+                            <td><input type="checkbox"></td>
+                            <td><img src="https://cdn.imweb.me/thumbnail/20190613/8246db62dda15.png" alt="Commodo odio"></td>
+                            <td><span class="cart__list_name">Commodo odio</span></td>
+                            <td class="cart__list__option">
+                                <p>1개</p>
+                                <button class="cart__list__optionbtn">옵션/수량 변경</button>
+                            </td>
+                            <td>
+                                <span class="price">48000원</span>
+                                <br>
+                                <button class="cart__list__orderbtn"><a href="pay.html">주문하기</a></button>
+                            </td>
+                            <td>2500원</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3"><input type="checkbox"> <button class="cart__list__optionbtn">선택상품 삭제</button>
+                                
+                            </td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tfoot>
+                </form>
+            </table>
+            <div class="cart__mainbtns">
+                <button class="cart__bigorderbtn left"><a href="pay.html">주문하기</a></button>
+                <button class="cart__bigorderbtn right"><a href="main.html">계속 쇼핑하기</a></button>
+            </div>
+        </section>
+        <footer></footer>
+    </body>
+</html>

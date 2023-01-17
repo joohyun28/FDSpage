@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>결제 페이지</title>
+</head>
+
+<body>
+    <div class="information">
+        <br>
+        <h3>주문 상품 정보</h3>
+        <box>
+
+        </box>
+    </div>
+
+    <div class="order_person">
+        <br>
+        <h3>주문자 정보</h3><br>
+        <input title="이름" placeholder="이름" type="text" name="name" id="name" autocapitalize="off" required>
+        &nbsp&nbsp&nbsp
+        <input title="연락처" placeholder="연락처" type="text" name="phone" id="phone" autocapitalize="off" required>
+        <input title="이메일" placeholder="이메일" type="text" name="email" id="email" autocapitalize="off" required>
+        @ <select>
+            <option>------ 선택 ------</option>
+            <option>gmail.com</option>
+            <option>naver.com</option>
+            <option>직접 입력</option>
+        </select>
+        <input title="주소" placeholder="주소" type="text" name="addr" id="addr" autocapitalize="off" required>
+    </div>
+    <br>
+
+    <div class="order_person_new">
+        <br>
+        <h3>배송 정보</h3><br>
+        <br>
+        <div class="check_same">
+            <input type="checkbox" id="newInfo" name="newInfo">
+            <label for="newInfo">주문자 정보와 동일</label>
+            <br>
+        </div>
+        <input title="이름" placeholder="이름" type="text" name="new_name" id="new_name" autocapitalize="off" required>
+        &nbsp&nbsp&nbsp
+        <input title="연락처" placeholder="연락처" type="text" name="new_phone" id="new_phone" autocapitalize="off" required>
+        <input title="이메일" placeholder="이메일" type="text" name="new_email" id="new_email" autocapitalize="off" required>
+        @ <select>
+            <option>------ 선택 ------</option>
+            <option>gmail.com</option>
+            <option>naver.com</option>
+            <option>직접 입력</option>
+        </select>
+        <input title="주소" placeholder="주소" type="text" name="new_addr" id="new_addr" autocapitalize="off" required></p>
+        <br>
+        <p>배송 메모</p><br>
+        <select>
+            <option value="0">배송메모를 선택해 주세요.</option>
+            <option value="1">배송 전에 미리 연락 바랍니다.</option>
+            <option value="2">부재시 경비실에 맡겨주세요.</option>
+            <option value="3">부재시 전화나 문자를 남겨주세요.</option>
+            <option value="4">직접 입력.</option>
+        </select>
+    </div>
+    <br>
+    <div class="total">
+        <h3>주문 요약</h3>
+        <br><br><br><br><br><br>
+        <p>상품가격&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            <script></script>원
+        </p>
+        <br><br><br><br><br>
+        <p>배송비&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp+2,500원
+        </p><br><br><br><br><br>
+        <p>-------------------------------------------------------------------------------------</p>
+        <br><br><br><br><br>
+        <p>총 주문금액
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            <script></script>원
+        </p>
+    </div>
+
+    <br>
+    <div class="pay">
+        <h3>결제 수단</h3><br>
+        <br>
+        <table>
+            <tr>
+                <td>결제수단 선택</td>
+                <td>
+                    <div class="select_way">
+                        <input type="radio" name="selecy_way" id="card" checked>
+                        <label for="card">카드간편결제</label>
+                        <input type="radio" name="selecy_way" id="no_card">
+                        <label for="no_card">무통장입금</label>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    결제하기
+                </td>
+                카드번호
+                <div class="card_num">
+                    <input title="카드번호" type="text" name="card_num" id="card_num" autocapitalize="off" required>
+                    - <input title="카드번호" type="text" name="card_num" id="card_num" autocapitalize="off" required>
+                    - <input title="카드번호" type="text" name="card_num" id="card_num" autocapitalize="off" required>
+                    - <input title="카드번호" type="text" name="card_num" id="card_num" autocapitalize="off" required>
+                </div>
+            <tr>
+                <td>
+                </td>
+                <td>비밀번호</td>
+            </tr>
+            <tr>
+                <td>
+                </td>
+                <td>카드구분</td>
+            </tr>
+            <tr>
+                <td>
+                </td>
+                <td>생년월일</td>
+            </tr>
+            <tr>
+                <td>
+                </td>
+                <td>할부선택</td>
+            </tr>
+            <tr>
+                <td>
+                </td>
+                <td>이메일</td>
+            </tr>
+            </tr>
+        </table>
+    </div>
+
+    <div class="checkbox-group">
+        <div class="checkbox-styled">
+            <label>
+                <input type="checkbox" value="" id="paymentAllCheck">
+                <span class="text-14">전체 동의</span>
+            </label>
+        </div>
+        <div class="checkbox-styled">
+            <label>
+                <input type="checkbox" class="_agree" data-alert="개인정보 수집 및 이용에 동의하여 주시기 바랍니다.">
+                <span class="text-14">개인정보 수집 및 이용 동의
+                    <a href="personel_check.html" class="_open_popup_privacy"> <span
+                            class="text-underline text-brand">약관보기</span></a></span>
+            </label>
+            <div class="checkbox-styled">
+                <label>
+                    <input type="checkbox" class="_agree" data-alert="구매조건 확인 및 결제진행에 동의하여 주시기 바랍니다.">
+                    <span class="text-14">구매조건 확인 및 결제진행에 동의</span>
+                </label>
+            </div>
+
+        </div>
+
+
+</body>
+<style>
+    * {
+        text-align: left;
+        padding: 0px;
+        margin: 0px auto;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: #F7F5F3;
+    }
+
+    .order_person {
+        padding: 20px 20px 10px;
+        position: relative;
+        width: 600px;
+        height: 300px;
+        line-height: 5px;
+        background-color: #fff;
+    }
+
+    .order_person_new {
+        padding: 20px 20px 20px;
+        position: relative;
+        width: 600px;
+        height: 400px;
+        line-height: 5px;
+        background-color: #fff;
+
+    }
+
+    .total {
+        padding: 30px 20px 20px;
+        vertical-align: top;
+        width: 600px;
+        height: 200px;
+        line-height: 5px;
+        background-color: #fff;
+    }
+
+    .pay {
+        padding: 20px 10px 20px;
+        vertical-align: top;
+        width: 600px;
+        height: 1000px;
+        line-height: 5px;
+        background-color: #fff;
+    }
+
+    /*input{
+        width: 50%;
+        border: 2px solid #aaa;
+        border-radius: 4px;
+        margin: 8px 0 0;
+        outline: none;
+        padding: 8px;
+        box-sizing: border-box;
+        transition: 3s;
+    }
+    .card_num{
+        width: 30%;
+
+    }*/
+</style>
+<!--주문자 정보 동일화 코드-->
+<script>
+    //1. 주문정보 동일 체크박스 요소 담은 변수 생성
+    let check = document.querySelector("#newInfo");
+    //2. 해당 변수 클릭 시 function 발생
+    check.addEventListener("click", function () {
+        //체크 시 각 요소 값 매칭
+        if (check.checked == true) {
+            document.querySelector("#new_name").value = document.querySelector("#name").value;
+            document.querySelector("#new_phone").value = document.querySelector("#phone").value;
+            document.querySelector("#new_email").value = document.querySelector("#email").value;
+            document.querySelector("#new_addr").value = document.querySelector("#addr").value;
+        } else {
+            //체크되지 않았다면 각 요소값을 비워둠
+            document.querySelector("new_name").value = "";
+            document.querySelector("new_phone").value = "";
+            document.querySelector("new_email").value = "";
+            document.querySelector("new_addr").value = "";
+        }
+    });
+
+</script>
+
+</html>

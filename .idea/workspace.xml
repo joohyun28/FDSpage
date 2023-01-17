@@ -1,60 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a0d2115-db31-4f87-aafd-1e7719fdba63" name="Default Changelist" comment="signup" />
+    <list default="true" id="be076372-2b1e-473d-b46a-1ba88743e4e7" name="Changes" comment="1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="main" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
-  <component name="ProjectId" id="2K7voIBxCt3baMrw9mVoYoDFiHe" />
+  <component name="ProjectId" id="2KJqNVjQpykWf81DiK39jkuR9gX" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\github\FDSpage\jieun01" />
+    </key>
   </component>
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8a0d2115-db31-4f87-aafd-1e7719fdba63" name="Default Changelist" comment="" />
-      <created>1673338609236</created>
+      <changelist id="be076372-2b1e-473d-b46a-1ba88743e4e7" name="Changes" comment="1" />
+      <created>1673702995470</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1673338609236</updated>
+      <updated>1673702995470</updated>
     </task>
-    <task id="LOCAL-00001" summary="signup">
-      <created>1673343175101</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1673343175101</updated>
-    </task>
-    <task id="LOCAL-00002" summary="signup">
-      <created>1673343264666</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1673343264666</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -67,31 +56,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="signup" />
-    <option name="LAST_COMMIT_MESSAGE" value="signup" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="569" y="306" key="#Notifications" timestamp="1673343213833">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="569" y="306" key="#Notifications/0.0.1536.816@0.0.1536.816" timestamp="1673343213833" />
-    <state x="203" y="100" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1673339233277">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="203" y="100" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.816@0.0.1536.816" timestamp="1673339233277" />
-    <state x="489" y="245" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1673340242083">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="489" y="245" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.816@0.0.1536.816" timestamp="1673340242083" />
-    <state x="276" y="177" key="Vcs.Push.Dialog.v2" timestamp="1673343400242">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="276" y="177" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1673343400242" />
-    <state x="402" y="231" key="git4idea.merge.GitPullDialog" timestamp="1673343493218">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="402" y="231" key="git4idea.merge.GitPullDialog/0.0.1536.816@0.0.1536.816" timestamp="1673343493218" />
   </component>
 </project>
